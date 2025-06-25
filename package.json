@@ -1,0 +1,32 @@
+{
+  "name": "gympass-rocketseat-study",
+  "version": "1.0.0",
+  "description": "Gympass style app",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IghorTI/Gympass-RocketSeat-Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IghorTI/Gympass-RocketSeat-Study/issues"
+  },
+  "homepage": "https://github.com/IghorTI/Gympass-RocketSeat-Study#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "fastify": "^5.4.0"
+  }
+}
