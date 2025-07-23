@@ -5,5 +5,5 @@ app.listen({
     port: env.PORT,
     host: '0.0.0.0' 
 }).then(() => {
-    console.log('🚀 HTTP server running!');
+    console.log(`🚀 HTTP server running! PORT: ${env.PORT}`);
 })
